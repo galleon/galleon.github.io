@@ -6,14 +6,48 @@
     <description>Recent content on Tog&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 20:14:31 +0100</lastBuildDate><atom:link href="https://galleon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 17:41:14 +0200</lastBuildDate><atom:link href="https://galleon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Basics</title>
+      <link>https://galleon.github.io/posts/docker-basics/</link>
+      <pubDate>Sat, 01 May 2021 17:41:14 +0200</pubDate>
+      
+      <guid>https://galleon.github.io/posts/docker-basics/</guid>
+      <description>It has been quite a while!
+Some quick recipens on using Docker.
+Quite often, I need to test few thing in a controlled environment, nothing is easier than starting a virtual machine in interactive mode. For example, you can do:
+docker run -v $(pwd):/root -it ubuntu:latest /bin/bash This command will:
+ run docker interactively (you will get a pseudo-tty with stdin) start an Ubuntu image mount the current directory in /root the container will be automatically removed if existing  </description>
+    </item>
+    
     <item>
       <title>Lets Start</title>
       <link>https://galleon.github.io/posts/lets-start/</link>
       <pubDate>Sun, 03 Nov 2019 20:14:31 +0100</pubDate>
       
       <guid>https://galleon.github.io/posts/lets-start/</guid>
-      <description>In the past, I have authored a number of blogs mainly to store tips and tricks that I found useful. I recently discovered Hugo a well known framework for static web pages. I decided to give it a go by connecting it to Github. Each post is automatically published when pushed in the repository. Travis iis used to transform the markdown based sources in html static files. My goals with these pages is not different from my previous attemps, I will use them to report things that do resonate for me.</description>
+      <description>In the past, I have authored a number of blogs mainly to store tips and tricks that I found useful. I recently discovered Hugo a well known framework for static web pages. I decided to give it a go by connecting it to Github. Each post is automatically published when pushed in the repository. Travis is used to transform the markdown based sources in html static files. My goals with these pages is not different from my previous attemps, I will use them to report things that do resonate for me.</description>
+    </item>
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://galleon.github.io/posts/my-second-post/</link>
+      <pubDate>Sat, 02 Nov 2019 20:24:14 +0100</pubDate>
+      
+      <guid>https://galleon.github.io/posts/my-second-post/</guid>
+      <description>This is a second post
+   A bit of music now:
+Your browser does not support the audio element.     column1 column2     r1c1 r1c2   r2c1 r2c2    That&amp;rsquo;s all folks</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://galleon.github.io/posts/my-first-post/</link>
+      <pubDate>Fri, 01 Nov 2019 11:21:27 +0100</pubDate>
+      
+      <guid>https://galleon.github.io/posts/my-first-post/</guid>
+      <description>Blah blah
+  mermaid.initialize({ theme: &#39;dark&#39;, themeCSS: &#39;&#39;, cloneCssStyles: false, useMaxWidth: true, htmlLabels: false, flowchart: { curve: &#39;basis&#39; }	});   mermaid.initialize({ theme: &#39;dark&#39;, themeCSS: &#39;&#39;, cloneCssStyles: false, useMaxWidth: true, htmlLabels: false, flowchart: { curve: &#39;basis&#39; }	});  graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]    mermaid.initialize({ theme: &#39;dark&#39;, themeCSS: &#39;&#39;, cloneCssStyles: false, useMaxWidth: true, htmlLabels: false, flowchart: { curve: &#39;basis&#39; }	});   mermaid.</description>
     </item>
     
   </channel>
