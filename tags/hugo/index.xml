@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Tog&#39;s website</title>
+    <link>https://galleon.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Tog&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 May 2021 18:11:14 +0200</lastBuildDate><atom:link href="https://galleon.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updating my blog</title>
+      <link>https://galleon.github.io/posts/building-blog/</link>
+      <pubDate>Sat, 01 May 2021 18:11:14 +0200</pubDate>
+      
+      <guid>https://galleon.github.io/posts/building-blog/</guid>
+      <description>I have an extremely small cache memory and it is always a pain to retrieve how to update my blog. So I thought that a blog post on how to update my blog could be useful. Let&amp;rsquo;s start.
+First create a new post:
+cd blog; hugo new posts/my-new-post.md With your preferred text editor, add some interesting content. You can keep only a basic header as below.
++++ draft = true date = 2021-05-01T18:11:14+02:00 title = &amp;#34;My new blog post&amp;#34; tags = [&amp;#39;hugo&amp;#39;, &amp;#39;blog&amp;#39;] categories = [&amp;#39;coding&amp;#39;] +++ Then, test it using:</description>
+    </item>
+    
+  </channel>
+</rss>
